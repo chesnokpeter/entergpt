@@ -4,8 +4,8 @@ import base64
 ZIP = 2
 
 client = OpenAI(
-    api_key="sk-or-vv-2efcadb596a1d557d7846b906451ab3d828f50ba907a204e184afab5b927433b", # ваш ключ в VseGPT после регистрации
-    base_url="https://api.vsegpt.ru/v1",
+    api_key="",
+    base_url="",
 )
 
 def encode_image(image_path):
